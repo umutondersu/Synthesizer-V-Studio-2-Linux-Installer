@@ -27,7 +27,7 @@ if [ ! -d "$wineprefix_path" ]; then
 fi
 
 # Download Edge Webview and SV2
-curl -L -o MicrosoftEdgeWebview2Setup.exe https://go.microsoft.com/fwlink/p/?LinkId=2124703
+curl -L -o MicrosoftEdgeWebview2Setup.exe https://go.microsoft.com/fwlink/?linkid=2124701
 curl -L -o svstudio2-pro-setup-latest.exe https://authr3-media.r2.dreamtonics.com/updates/Synthesizer-V-Studio-2-Pro/svstudio2-pro-setup-2.2.1_2.2.1_131585_6nDskUCuqusxJtzK.exe
 
 # Install Synthesizer V Studio 2 Pro

@@ -32,7 +32,7 @@ fi
 
 # Download Edge Webview and SV2
 curl -L -o MicrosoftEdgeWebview2Setup.exe https://go.microsoft.com/fwlink/?linkid=2124701
-curl -L -o svstudio2-pro-setup-latest.exe https://authr3-media.r2.dreamtonics.com/updates/Synthesizer-V-Studio-2-Pro/svstudio2-pro-setup-2.2.1_2.2.1_131585_6nDskUCuqusxJtzK.exe
+curl -L -o svstudio2-pro-setup-latest.exe https://authr3-media.r2.dreamtonics.com/updates/Synthesizer-V-Studio-2-Pro/svstudio2-pro-setup-2.3.0_2.3.0_131840_oOaE4sFIuHXE987Q.exe
 
 # Install Synthesizer V Studio 2 Pro
 WINEPREFIX="$wineprefix_path" wineboot > /dev/null 2>&1 | echo "Wineboot Complete"
